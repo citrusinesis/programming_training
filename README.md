@@ -2,6 +2,7 @@
 > 프로그래밍 및 실습 - 권민혜 교수님
 
 ### Directory Structure
+```
 week#
 ├── NOTEBOOK
 ├── ...
@@ -11,6 +12,7 @@ week#
 └── lecture-note
     ├── LECTURENOTE_PDF
     └── ...
+```
 
 * 모든 C 코드들은 `Ubuntu 20.04 LTS`, `gcc` 환경에서 테스트 되었습니다.
 * Local에서 테스트 하여 Google Colab으로 코드와 실행 결과를 정리해 두었습니다.
