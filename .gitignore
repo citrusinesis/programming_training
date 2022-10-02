@@ -1,3 +1,5 @@
 .vscode/
 *.Identifier
 build/
+*.sh
+a.out
