@@ -31,5 +31,5 @@ if __name__ == "__main__":
     notebook = nbformat.v4.new_notebook()
     notebook.cells = convertToCell(codeList)
 
-    nbformat.write(notebook, f"../{week}/20222975_송지호_{file}.ipynb")
+    nbformat.write(notebook, f"../{week}/{file}_20222975_송지호.ipynb")
     print("[*] Done!")
