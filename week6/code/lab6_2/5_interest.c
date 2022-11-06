@@ -1,4 +1,5 @@
 #include <stdio.h>
+
 int main(void) {
     double money = 1.0;
     for (int i = 0; i <= 30; i++) {
