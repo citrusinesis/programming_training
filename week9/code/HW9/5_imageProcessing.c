@@ -27,7 +27,7 @@ void imageDarken(char *p, int w, int h) {
 void printImage(char *p, int w, int h) {
     for (int i = 0; i < h; i++) {
         for (int j = 0; j < w; j++) {
-            printf("%c", p[i * w + j]);
+            printf("%c ", p[i * w + j]);
         }
         printf("\n");
     }
