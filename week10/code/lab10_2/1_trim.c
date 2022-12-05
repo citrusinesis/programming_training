@@ -6,6 +6,7 @@ int main() {
 
     printf("문자열을 입력하시오: ");
     gets(line);
+
     int k = 0;
     for (int i = 0; line[i] != '\0'; ++i) {
         while (line[i] >= 'A' && line[i] <= 'z') {
@@ -13,6 +14,7 @@ int main() {
         }
     }
     line2[k] = '\0';
+    
     printf("출력 문자열: %s\n", line2);
     return 0;
 }
